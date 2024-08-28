@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <style>
+body {
+  background-image: url('Image/1724076276788.jpg');
+  font-family: times new roman, serif;
+  background-size: ;
+  background-position: center;
+}
+div {
+  border: 5px solid;
+  text-align: center;
+  width: 80%;
+  margin: 40px auto;
+  padding: 40 px;
+  height: auto;
+  margin-top: 20px;
+  backdrop-filter: blur(9px);
+  border-color: green;
+}
+input[type="text"], [type="password"], [type="email"], [type="number"], [type="date"] {
+  width: 80%;
+  height: auto;
+  border: 3px solid;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: green;
+}
+  select {
+    width: 90%;
+  height: auto;
+  border: 3px solid;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: green;
+  }
+button {
+  width:68%;
+  padding: 10px;
+  border: 2px thick;
+  background-color: green;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: white;
+  transition: hover 8secs;
+}
+button:hover {
+  color: green;
+  background-color: white;
+  border-color: green;
+}
+::placeholder {
+  font-size: 10px;
+  color: black;
+  background: transparent;
+}
+p {
+  color: white;
+  font-weight: bold;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+h1 {
+  color: green;
+  font-weight: bold;
+}
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: middle;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+  }
+</style>
+<body>
+  
+  <div>
+    <form>
+      <h1>
+    Sign Up
+  </h1>
+      <label for="fname">Full Name:</label>
+      <input type="text" name="fname" placeholder="Full Name" required=""><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Email" required="@"><br>
+      <label for="pswd">Password:</label>
+      <input type="password" name="pswd" placeholder="Password" minlength="fivechracters" required=""><br>
+      <label for="uname">Username:</label>
+      <input type="text" name="uname" placeholder="Username"><br>
+      <label for="sex">Sex:</label>
+      <select>
+        <option value="1">Male</option>
+         <option value="2">Female</option>
+         <option value="3">Custom</option>
+      </select><br>
+      <label for="dob">D.O.B:</label>
+      <input type="date" name="date-of-birth" placeholder="Date Of Birth">
+      <label for="phone number">Phone Number:</label>
+      <input type="number" name="number" placeholder="Phone Number">
+      <button>Sign Up</button>
+        <p>Already have an account <a href="login.html">Login</a></p>
+    </form>
+  </div>
+</body>
+</html>
